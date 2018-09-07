@@ -1,5 +1,5 @@
 # Logic_Building_Programs
-This File repository has total  files as 
+This repository has total 3 files as 
 header.h
 source.cpp
 helper.cc
