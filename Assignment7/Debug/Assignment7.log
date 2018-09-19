@@ -1,0 +1,20 @@
+﻿  helper6.cpp
+  helper10.cpp
+  Generating Code...
+  Compiling...
+  mainfile.cpp
+  helper9.cpp
+  helper8.cpp
+  helper7.cpp
+  helper5.cpp
+c:\users\bipin thakur\source\repos\assignment7\assignment7\helper5.cpp(13): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'int *'
+  helper4.cpp
+  helper3.cpp
+c:\users\bipin thakur\source\repos\assignment7\assignment7\helper3.cpp(4): warning C4244: 'initializing': conversion from 'double' to 'LONG', possible loss of data
+c:\users\bipin thakur\source\repos\assignment7\assignment7\helper3.cpp(5): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+  helper2.cpp
+  helper.cpp
+  Generating Code...
+c:\users\bipin thakur\source\repos\assignment7\assignment7\helper9.cpp(17): warning C4715: 'SumRange': not all control paths return a value
+helper9.obj : error LNK2005: "unsigned int __cdecl SumRange(int,int)" (?SumRange@@YAIHH@Z) already defined in helper6.obj
+C:\Users\Bipin Thakur\source\repos\Assignment7\Debug\Assignment7.exe : fatal error LNK1169: one or more multiply defined symbols found
