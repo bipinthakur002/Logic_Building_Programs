@@ -1,8 +1,6 @@
 # Logic_Building_Programs
-This repository has total 3 files as 
-header.h
-source.cpp
-helper.cpp
-whereas helper file consist logic about displaying even factor of number
-source is a main file
-and header file contains function prototype and (input output)library file
+This repository has Logic Building assignment Projects and thode assignment contains folder as 
+header.h        //(file contains function prototype and (input output)library file)
+helper.cpp      //(Logic)
+mainfile.cpp    //(main function)
+ 
