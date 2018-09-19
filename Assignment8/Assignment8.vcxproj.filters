@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Program1">
+      <UniqueIdentifier>{5fef00a4-6e2f-42d8-b2bc-5348bc68e5e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Program2">
+      <UniqueIdentifier>{8ba5085a-a28e-42f0-a41f-4b2a627f8edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Program3">
+      <UniqueIdentifier>{c2e9083b-1721-4a22-97a2-7e30ab97c836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Program4">
+      <UniqueIdentifier>{b0797ad7-ba90-467f-8db2-2a9c418080a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Program5">
+      <UniqueIdentifier>{63a095ba-b82a-467c-9d6f-4012208af783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Program6">
+      <UniqueIdentifier>{a465b0e4-ffe3-4848-91ea-230edcb26945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Program7">
+      <UniqueIdentifier>{18597631-4c76-418c-b081-884dc5f44dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Program9">
+      <UniqueIdentifier>{6d490ab9-2f0f-4505-bde3-afe550749440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Program8">
+      <UniqueIdentifier>{18736078-af92-43d8-8d92-db83221a48e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Program10">
+      <UniqueIdentifier>{c04f8665-1786-4a02-ba91-26b1c2f7a159}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="helper1.cpp">
+      <Filter>Source Files\Program1</Filter>
+    </ClCompile>
+    <ClCompile Include="mainfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="helper2.cpp">
+      <Filter>Source Files\Program2</Filter>
+    </ClCompile>
+    <ClCompile Include="helper3.cpp">
+      <Filter>Source Files\Program3</Filter>
+    </ClCompile>
+    <ClCompile Include="helper4.cpp">
+      <Filter>Source Files\Program4</Filter>
+    </ClCompile>
+    <ClCompile Include="helper5.cpp">
+      <Filter>Source Files\Program5</Filter>
+    </ClCompile>
+    <ClCompile Include="helper6.cpp">
+      <Filter>Source Files\Program6</Filter>
+    </ClCompile>
+    <ClCompile Include="helper7.cpp">
+      <Filter>Source Files\Program7</Filter>
+    </ClCompile>
+    <ClCompile Include="helper8.cpp">
+      <Filter>Source Files\Program8</Filter>
+    </ClCompile>
+    <ClCompile Include="helper9.cpp">
+      <Filter>Source Files\Program9</Filter>
+    </ClCompile>
+    <ClCompile Include="helper10.cpp">
+      <Filter>Source Files\Program10</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
