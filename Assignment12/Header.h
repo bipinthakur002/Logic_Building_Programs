@@ -9,7 +9,7 @@ BOOL ChkDigit(char );
 BOOL ChkSmall(char);
 void DisplaySchedule(char);
 void DisplayASCII();
-void SwapX(char , char );
+void SwapX(char* , char* );
 void Display(char );
 void ChkSpecial(char);
 void DisplayX(char);
