@@ -89,17 +89,29 @@ int main()
 	*/
 
 
-	/*program 7
-	char *ch = NULL;
-	char *p =NULL;
+	/* program 7
+	char ch = '\0';
+	char p = '\0';
 	printf("Enter first character:\n");
-	scanf_s("%c", &ch);
-	//fflush(stdin);
+	scanf_s("%c",&ch);
 	printf("Enter second character:\n");
-	scanf_s("%c", &p);
-	SwapX(ch,p);
+	scanf_s(" %c",&p);
+	SwapX(ch, p);
 	return 0;
 	*/
+
+
+
+
+	/* program 8
+	char ch = '\0';
+	printf("Enter character:\n");
+	scanf_s("%c", &ch);
+	Display(ch);
+	return 0;
+	*/
+
+
 
 
 	/*program 9
