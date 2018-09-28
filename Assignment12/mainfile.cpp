@@ -96,7 +96,7 @@ int main()
 	scanf_s("%c",&ch);
 	printf("Enter second character:\n");
 	scanf_s(" %c",&p);
-	SwapX(ch, p);
+	SwapX(&ch, &p);
 	return 0;
 	*/
 
