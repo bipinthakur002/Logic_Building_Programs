@@ -1,5 +1,5 @@
 #include"Header.h"
-void SwapX(char *ch,char *p)
+void SwapX(char *ch, char *p)
 {
 	char *temp;
 	if (((*ch >= 'A') && (*ch <= 'Z')) && ((*p >= 'A') && (*p <= 'Z')))
@@ -14,5 +14,6 @@ void SwapX(char *ch,char *p)
 		ch = p;
 		p = temp;
 	}
-		
+	printf("After swaping elements are %c %c", *ch, *p);
+
 }
