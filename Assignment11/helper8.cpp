@@ -19,7 +19,7 @@ int Search(char *arr, int size,char ch)
 		
 
 
-		 if ((arr[icnt] == ch) || (temp == ch))
+		 if ((arr[icnt] == ch) || (arr[icnt]==temp))
 		{
 			count++;
 		}
