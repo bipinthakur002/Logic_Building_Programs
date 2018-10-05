@@ -1,0 +1,9 @@
+﻿  mainfile.cpp
+c:\users\bipin thakur\source\repos\assignment13\assignment13\mainfile.cpp(49): warning C4476: 'scanf_s' : unknown type field character ' ' in format specifier
+c:\users\bipin thakur\source\repos\assignment13\assignment13\mainfile.cpp(49): warning C4474: 'scanf_s' : too many arguments passed for format string
+  c:\users\bipin thakur\source\repos\assignment13\assignment13\mainfile.cpp(49): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+c:\users\bipin thakur\source\repos\assignment13\assignment13\mainfile.cpp(52): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  c:\users\bipin thakur\source\repos\assignment13\assignment13\mainfile.cpp(52): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  c:\users\bipin thakur\source\repos\assignment13\assignment13\mainfile.cpp(52): note: the missing variadic argument 2 is required by format string '%[^'\n']'
+  c:\users\bipin thakur\source\repos\assignment13\assignment13\mainfile.cpp(52): note: this argument is used as a buffer size
+  Assignment13.vcxproj -> C:\Users\Bipin Thakur\source\repos\Assignment13\Debug\Assignment13.exe
