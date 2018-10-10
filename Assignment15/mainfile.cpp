@@ -48,7 +48,7 @@ int main()
 	return 0;
 	*/
 
-	/* program 6
+	// program 6
 	int row = 0, col = 0;
 	printf("Enter how many row:\n");
 	scanf_s("%d", &row);
@@ -56,7 +56,7 @@ int main()
 	scanf_s("%d", &col);
 	pattern6(row, col);
 	return 0;
-	*/
+	
 	
 
 	/* program 7
@@ -100,12 +100,5 @@ int main()
 	pattern10(row, col);
 	return 0;
 	*/
-
-
-
-
-
-
-
 
 }

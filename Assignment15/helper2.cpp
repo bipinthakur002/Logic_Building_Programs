@@ -1,6 +1,10 @@
 #include"Header.h"
 void pattern2(int ino)
 {
+	if (ino)
+	{
+		ino = -ino;
+	}
 	int i = 0;
 	char ch = 'A';
 	char temp ='\0';
