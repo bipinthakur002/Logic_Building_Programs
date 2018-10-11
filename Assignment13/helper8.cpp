@@ -1,36 +1,40 @@
-#include"header.h"
-
-BOOL StrNCmpX(char *str1, char *str2, int iNo)
+#include"Header.h"
+BOOL StrNCmpX(char *src, char * dest, int N)
 {
-	int f = 1;
-	if ((NULL == str1) && (NULL == str2))
+	if ((*src == NULL) || (*dest == NULL)|| (N <= 0))
 	{
 		return FALSE;
 	}
+	
 
-	while ((*str1 != '\0') && (*str2 != '\0') && (iNo != 0))
+	while ((*src != '\0') && (*dest != '\0') && (N!=0))
 	{
-		if (*str1 != *str2)
+
+
+		if ((*src != '\0') || (*dest != '\0') || (N != 0))
 		{
-			f = 0;
-			break;
+			
+			if (*src == *dest)
+			{
+				src++;
+				dest++;
+				N--;
+			}
+			else
+			{
+				break;
+			}
+
 		}
-		str1++;
-		str2++;
-		iNo--;
+		
 	}
-
-	if (iNo >= 1)
-	{
-		return FALSE;
-	}
-
-	if (f == 1)
+	if (N == 0)
 	{
 		return TRUE;
 	}
 	else
 	{
-		return FALSE;
+		FALSE;
 	}
+	
 }

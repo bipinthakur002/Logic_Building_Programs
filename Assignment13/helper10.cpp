@@ -1,53 +1,39 @@
 #include"header.h"
-
 BOOL StrPallindrome(char *str)
 {
 	char *temp = str;
-	char cTemp;
-	int f = 1;
-	if (NULL == str)
+	char cap = '0';
+	//char small = '\0';
+	if (str == NULL)
 	{
 		return FALSE;
 	}
-
-	while (*temp != '\0')
+	while (*str != '\0')
 	{
-		temp++;
-	}
-	temp--;
-
-	while (str <= temp)
-	{
-		if (*str == *temp)
+		if ((*str >= 'A') && (*str <= 'Z'))
 		{
-			str++;
-			temp--;
+			cap = *str + 32;
 		}
-		else if ((*str >= 'A') && (*str <= 'Z') && (*temp >= 'a') && (*temp <= 'z'))
+		else if ((*str >= 'a') && (*str <= 'z'))
 		{
-			cTemp = *temp;
-			if (*str == (cTemp - 32))
-			{
-				str++;
-				temp--;
-			}
-		}
-		else if ((*str >= 'a') && (*str <= 'z') && (*temp >= 'A') && (*temp <= 'Z'))
-		{
-			cTemp = *temp;
-			if (*temp == (cTemp + 32))
-			{
-				str++;
-				temp--;
-			}
+			cap = *str - 32;
 		}
 		else
 		{
-			f = 0;
-			break;
+			return FALSE;
+		}
+		str++;
+	}
+	str--;
+	while (*temp != 0)
+	{
+		if ((*temp == *str))
+		{
+			temp++;
+			str--;
 		}
 	}
-	if (f == 1)
+	if (temp == '\0')
 	{
 		return TRUE;
 	}

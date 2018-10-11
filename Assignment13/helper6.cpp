@@ -1,7 +1,8 @@
 #include"header.h"
 
-void StrNCatX(char *str, char *dest, int iCnt)
+void StrNCatX(char *str, char *dest,int N)
 {
+	int icnt = 0;
 	if ((NULL == str) && (NULL == dest))
 	{
 		return;
@@ -10,17 +11,19 @@ void StrNCatX(char *str, char *dest, int iCnt)
 	while (*str != '\0')
 	{
 		str++;
+		
 	}
 
 	*str = ' ';
 	str++;
-
-	while ((*dest != '\0') && (iCnt != 0))
+	
+	
+	while (icnt<=N)
 	{
 		*str = *dest;
 		str++;
 		dest++;
-		iCnt--;
+		icnt++;
 	}
-	*str = '\0';
+	
 }

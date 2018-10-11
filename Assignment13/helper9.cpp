@@ -1,26 +1,31 @@
 #include"header.h"
-
 void StrRevX(char *str)
 {
-	char *temp = str;
-	char cTemp;
-	if (NULL == str)
+
+	if (str == NULL)
 	{
 		return;
 	}
 
-	while (*temp != '\0')
-	{
-		temp++;
-	}
-	temp--;
+	char ch;
+	char *first, *last;
+	first = str;
+	last = str;
+	int icnt = 0;
 
-	while (str <= temp)
+	while (*last != '\0')
 	{
-		cTemp = *str;
-		*str = *temp;
-		*temp = cTemp;
-		str++;
-		temp--;
+		last++;
 	}
+	last--;
+	while (last >= str)
+	{
+		ch = *str;
+		*str = *last;
+		*last = ch;
+		str++;
+		last--;
+	}
+	
+
 }

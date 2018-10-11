@@ -1,7 +1,9 @@
 #include<stdio.h> 
+#include<string.h>
 typedef int BOOL;
 #define TRUE 1
 #define FALSE 2
+#define ERR_INPUT -1
 void StrCpyX(char *, char *);
 void StrNCpyX(char *, char *, int);
 void StrCpyCap(char *, char *);

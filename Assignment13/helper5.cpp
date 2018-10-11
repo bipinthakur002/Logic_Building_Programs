@@ -2,6 +2,7 @@
 
 void StrCatX(char *str, char *dest)
 {
+	int icnt = 0;
 	if ((NULL == str) && (NULL == dest))
 	{
 		return;
@@ -10,10 +11,12 @@ void StrCatX(char *str, char *dest)
 	while (*str != '\0')
 	{
 		str++;
+		icnt++;
 	}
-
+	
 	*str = ' ';
 	str++;
+	
 
 	while (*dest != '\0')
 	{
