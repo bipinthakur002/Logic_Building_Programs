@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\program1">
+      <UniqueIdentifier>{bef9f8d4-6c29-4432-9487-936e2edc1e6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Program2">
+      <UniqueIdentifier>{8ee477ef-a839-41cf-a947-844ed6de7db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Program3">
+      <UniqueIdentifier>{e3025ee2-a385-4f92-92ae-4b771e659fe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Program4">
+      <UniqueIdentifier>{2f206697-8d5b-4b5d-9a13-cb4a496761f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Program5">
+      <UniqueIdentifier>{f5f8ae73-4d01-4dca-98f8-394dbdf9a3b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mainfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="helper1.cpp">
+      <Filter>Source Files\program1</Filter>
+    </ClCompile>
+    <ClCompile Include="helper2.cpp">
+      <Filter>Source Files\Program2</Filter>
+    </ClCompile>
+    <ClCompile Include="helper3.cpp">
+      <Filter>Source Files\Program3</Filter>
+    </ClCompile>
+    <ClCompile Include="helper4.cpp">
+      <Filter>Source Files\Program4</Filter>
+    </ClCompile>
+    <ClCompile Include="helper5.cpp">
+      <Filter>Source Files\Program5</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
